@@ -4,7 +4,7 @@ class Artist
   # class << self; attr_accessor :find_by_name end
   #   @name
   
-  include Findable
+  extend Findable
   extend Memorable
   
   attr_accessor :name
