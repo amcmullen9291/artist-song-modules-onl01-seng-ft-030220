@@ -1,5 +1,0 @@
-module Paramable
-  def add_songs(songs)
-    self.each { |song| add_song(song) }
-  end
-end
