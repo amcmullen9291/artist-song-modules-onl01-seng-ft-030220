@@ -1,8 +1,6 @@
 require 'pry'
 
 class Song 
-  # class << self; attr_accessor :find_by_name end
-  #   @name
   extend Findable 
   extend Memorable
 
